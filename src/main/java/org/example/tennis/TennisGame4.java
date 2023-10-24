@@ -86,7 +86,7 @@ class Deuce implements ResultProvider {
     @Override
     public TennisResult getResult() {
         if (game.isDeuce())
-            return new TennisResult("org.example.tennis.Deuce", "");
+            return new TennisResult("Deuce", "");
         return this.nextResult.getResult();
     }
 }

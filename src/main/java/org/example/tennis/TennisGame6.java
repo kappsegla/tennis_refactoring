@@ -40,7 +40,7 @@ public class TennisGame6 implements TennisGame {
                     tieScore = "Thirty-All";
                     break;
                 default:
-                    tieScore = "org.example.tennis.Deuce";
+                    tieScore = "Deuce";
                     break;
             }
 
